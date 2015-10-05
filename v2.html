@@ -1,0 +1,74 @@
+<!--Done-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phase 2</title>
+	<link rel="stylesheet" type="text/css" href="v2.css">
+	
+
+</head>
+
+<body>
+
+		<div id = "item">
+			<ul id="list">
+  				<li class="layer" data-depth="7.00"><img src="images/2d.jpg" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="4.50"><img src="images/2c.jpg" style="width: 40%; height: 40%"></li>
+  				<li class="layer" data-depth="1.00"><img src="images/2b.jpg" style="width: 30%; height: 30%"></li>
+  				<li class="layer" data-depth="0.50"><img src="images/2a.jpg" style="width: 25%; height: 25%"></li>
+  			</ul>
+		</div>
+
+			<div id="hello">
+				<li class="layer" data-depth="1.50"><div class="test">
+				This is the second iteration of my project. The concept is a hazmat suit with smiling clay faces inside. To evoke the feeling of mounting claustrophobia in the story, I designed something to isolate the wearer and surround them with faces. The intent is to unnerve the wearer, and unnerve people with the sight of a hazmat suit -- which means a biohazard in the area. The idea is a riff off the concept that "people are a plague."
+				</div></li> 
+
+				<li class="layer" data-depth="3.50"><a href="matsv2.html"><div class="mats">MATERIALS
+  				</div></a></li>
+
+				<li class="layer" data-depth="5.50"><a href="v3.html"><div class="next">PHASE 3
+  				</div></a></li>
+
+  				<li class="layer" data-depth="7.00"><a href="v1.html"><div class="prev">PHASE 1
+  				</div></a></li>
+
+			</div>
+
+			<div id="phases">
+				<ul id="list">
+				<li class="layer" data-depth="7.50"><img src="images/phases.png"  style="width: 50%; height: 50%"/></li>
+				<li class="layer" data-depth="5.50"><img src="images/phases.png" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="3.50"><img src="images/phases.png" style="width: 70%; height: 70%"></li>
+  				<li class="layer" data-depth="0.50"><a href="index.html"><img src="images/phases.png" style="width: 80%; height: 80%"></a></li>
+  				</ul>
+  			</div>
+
+
+
+	<script src="deploy/parallax.min.js"></script>
+		
+	<script>
+
+  var scene = document.getElementById('list');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  	<script>
+
+  var scene = document.getElementById('phases');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  <script>
+
+  var scene = document.getElementById('hello');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+</body>
+</html>

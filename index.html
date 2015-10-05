@@ -1,0 +1,73 @@
+<!--Done-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phases</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+</head>
+
+<body>
+
+		<div id = "item">
+			<ul id="list">
+				<li class="layer" data-depth="9.50"><a href="v4.html"><img src="images/mask4.jpg"  style="width: 70%; height: 70%"/></a></li>
+				<li class="layer" data-depth="8.50"><a href="v3.html"><img src="images/mask3.jpg" style="width: 60%; height: 60%"></a></li>
+  				<li class="layer" data-depth="5.50"><a href="v2.html"><img src="images/mask2.jpg" style="width: 47%; height: 47%"></a></li>
+  				<li class="layer" data-depth="3.50"><a href="v1.html"><img src="images/mask1.jpg" style="width: 35%; height: 35%"></a></li>
+			</ul>
+
+		</div>
+
+			<div id="hello">
+				<li class="layer" data-depth="2.50"><div class="test">
+				Click the pictures to explore each phase of my first Major Studio Project. 
+					<p>
+				I'm Jed Segovia, a first year MFA Design and Technology student at Parsons The New School for Design. This site archives each project phase and the materials used to make them.
+					<p>
+				Our brief was to choose a fictional city from Italo Calvino's "Invisible Cities." I chose the city of Procopia, where a beautiful countryside is overtaken by an endless sea of people.
+					<p>
+				</p></p></div></li> 
+			</div>
+
+			<div id="phases">
+				<ul id="list">
+				<li class="layer" data-depth="7.50"><img src="images/phases.png"  style="width: 50%; height: 50%"/></li>
+				<li class="layer" data-depth="5.50"><img src="images/phases.png" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="4.50"><img src="images/phases.png" style="width: 70%; height: 70%"></li>
+  				<li class="layer" data-depth="3.50"><img src="images/phases.png" style="width: 80%; height: 80%"></li>
+  				</ul>
+  			</div>
+
+
+
+	<script src="deploy/parallax.min.js"></script>
+		
+	<script>
+
+  var scene = document.getElementById('list');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  	<script>
+
+  var scene = document.getElementById('phases');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  <script>
+
+  var scene = document.getElementById('hello');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+
+
+
+</body>
+</html>

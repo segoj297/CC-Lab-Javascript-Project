@@ -1,0 +1,160 @@
+.prev {
+
+	top: 400px;
+	right: 80px;
+	float: right;
+	position: relative;
+	color: white;
+	background-color: #392338;
+	font-size: 15pt;
+	font-style: bold;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.next {
+
+	top: 350px;
+	right: 60px;
+	float: right;
+	position: relative;
+	color: #FFCFA4;
+	background-color: #C1264E;
+	font-size: 15pt;
+	font-style: bold;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.mats {
+
+	top: 300px;
+	right: 40px;
+	float: right;
+	position: relative;
+	color: #523957; 
+	background-color: #FFCFA4;
+	font-size: 15pt;
+	font-style: bold;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	padding: 5px;
+	text-align: center;
+
+}
+
+#hello {
+	top: 100px;
+	right: 80px;
+	float: right;
+	position: relative;
+	color: #C1264E;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 300px;
+	height: 300px;
+	display: block;
+	padding: 20px;
+/*	border: 2px solid black;
+*/	text-align: left;
+
+}
+
+.test {
+	top: 60px;
+	right: 60px;
+	float: right;
+	position: relative;
+	color: white;
+	background-color: #C1264E;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 300px;
+	height: 200px;
+	display: block;
+	padding: 20px;
+/*	border: 2px solid red;
+*/	text-align: left;
+
+}
+
+#item {
+
+	top: 50px;
+	left: 100px;
+	position: fixed;
+	display: block;
+	/*border: 2px solid orange;*/
+
+}
+
+#phases {
+
+	top: 50px;
+	float: right;
+	right: 60px;
+	width: 500px;
+	height: 200px;
+	position: fixed;
+	/*border: 2px solid red;*/
+
+}
+
+/*.data-depth {
+  width: 100%;
+}*/
+
+.API {
+
+top: 5vh;
+position: ;
+
+}
+
+
+li.layer {
+
+	opacity: 0.20;
+}
+
+/*li.phase {
+
+	opacity: 1.00;
+}
+
+li.logo {
+
+	opacity: 1.00;
+}*/
+
+li:hover {
+
+    opacity: 1.00;
+    z-index: 1;
+
+
+}
+
+.map {
+
+	top: 5vh;
+	position: relative;
+	right: 100px;
+	background-color: black;
+	width: 250px;
+	height: 200px;
+
+}

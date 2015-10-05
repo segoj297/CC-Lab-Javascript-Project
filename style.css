@@ -1,0 +1,161 @@
+#hello {
+	top: 100px;
+	right: 80px;
+	float: right;
+	position: relative;
+	color: #C1264E;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 300px;
+	height: 300px;
+	display: block;
+	padding: 20px;
+/*	border: 2px solid black;
+*/	text-align: left;
+
+}
+
+.test {
+	top: 70px;
+	right: 60px;
+	float: right;
+	position: relative;
+	color: white;
+	background-color: #C1264E;
+	font-family: 'Gill Sans MT', sans-serif;
+	width: 300px;
+	height: 270px;
+	display: block;
+	padding: 20px;
+/*	border: 2px solid red;
+*/	text-align: left;
+
+}
+
+#item {
+
+	top: 150px;
+	left: 100px;
+	position: fixed;
+	display: block;
+	/*border: 2px solid orange;*/
+
+}
+
+#phases {
+
+	top: 50px;
+	float: right;
+	right: 60px;
+	width: 500px;
+	height: 200px;
+	position: fixed;
+	/*border: 2px solid red;*/
+	
+}
+
+/*.data-depth {
+  width: 100%;
+}*/
+
+.API {
+
+top: 5vh;
+position: ;
+
+}
+
+
+li.layer {
+
+	opacity: 0.20;
+}
+
+/*li.phase {
+
+	opacity: 1.00;
+}
+
+li.logo {
+
+	opacity: 1.00;
+}*/
+
+li:hover {
+
+    opacity: 1.00;
+    z-index: 1;
+
+}
+
+.map {
+
+	top: 5vh;
+	position: relative;
+	right: 100px;
+	background-color: black;
+	width: 250px;
+	height: 200px;
+
+}
+
+.version1 {
+
+	top: 50vh;
+	right: 124px;
+	position: fixed;
+	width: 400px;
+	height: 50px;
+	border: 2px solid green;
+	font-family: "Times New Roman," serif;
+	font-size: 40px;
+	color: black;
+	opacity: 0.25;
+	display: block;
+
+}
+
+
+.version2 {
+
+	top: 60vh;
+	right: 124px;
+	position: fixed;
+	width: 400px;
+	height: 50px;
+	border: 2px solid green;
+	color: black;
+	font-family: "Times New Roman," serif;
+	font-size: 40;
+	display: block;
+
+}
+
+.version3 {
+
+	top: 70vh;
+	right: 124px;
+	position: fixed;
+	width: 400px;
+	height: 50px;
+	border: 2px solid green;
+	color: black;
+	font-family: "Times New Roman," serif;
+	font-size: 40;
+	display: block;
+
+}
+
+.version4 {
+
+	top: 80vh;
+	right: 124px;
+	position: fixed;
+	width: 400px;
+	height: 50px;
+	border: 2px solid green;
+	color: black;
+	font-family: "Times New Roman," serif;
+	font-size: 40;
+	display: block;
+
+}

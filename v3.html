@@ -1,0 +1,74 @@
+<!--Done-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phase 3</title>
+	<link rel="stylesheet" type="text/css" href="v3.css">
+	
+
+</head>
+
+<body>
+
+		<div id = "item">
+			<ul id="list">
+  				<li class="layer" data-depth="6.50"><img src="images/3c.jpg" style="width: 35%; height: 35%"></li>
+  				<li class="layer" data-depth="3.00"><img src="images/3b.jpg" style="width: 45%; height: 45%"></li>
+  				<li class="layer" data-depth="1.50"><img src="images/3a.jpg" style="width: 35%; height: 35%"></li>  			
+  			</ul>
+		</div>
+
+			<div id="hello">
+			<li class="layer" data-depth="1.50"><div class="test">
+				The brief for Phase 3: "Product-ize" the concept. How do I make a hazmat suit commercially desirable? For one, if the environment compels people to buy one. Second, if it looks good. I conceived of a luxury gas mask or hazmat mask. I looked at Maison Margiela's designer masks for inspiration. This is a paper prototype. Unfortunately I didn't have the focus to take step-by-step photos for this project.
+				</div></li> 
+
+				<li class="layer" data-depth="3.50"><a href="matsv3.html"><div class="mats">MATERIALS
+  				</div></a></li>
+
+				<li class="layer" data-depth="5.50"><a href="v4.html"><div class="next">PHASE 4
+  				</div></a></li>
+
+  				<li class="layer" data-depth="7.00"><a href="v2.html"><div class="prev">PHASE 2
+  				</div></a></li>
+
+  			</div>
+
+			<div id="phases">
+				<ul id="list">
+				<li class="layer" data-depth="7.50"><img src="images/phases.png"  style="width: 50%; height: 50%"/></li>
+				<li class="layer" data-depth="5.50"><img src="images/phases.png" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="3.50"><img src="images/phases.png" style="width: 70%; height: 70%"></li>
+  				<li class="layer" data-depth="0.50"><a href="index.html"><img src="images/phases.png" style="width: 80%; height: 80%"></a></li>
+  				</ul>
+  			</div>
+
+
+
+	<script src="deploy/parallax.min.js"></script>
+		
+	<script>
+
+  var scene = document.getElementById('list');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  	<script>
+
+  var scene = document.getElementById('phases');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  <script>
+
+  var scene = document.getElementById('hello');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phase 4 Materials</title>
+	<link rel="stylesheet" type="text/css" href="matsv4.css">
+</head>
+
+<body>
+
+		<div id = "item">
+			<ul id="list">
+				<li class="layer" data-depth="4.50"><a href="#" class="button" data-latLng="40.735378, -73.994537"><img src="images/mats4a.jpg" style="width: 40%; height: 40%"></a></li>
+
+  				<li class="layer" data-depth="4.50"><a href="#" class="button" data-latLng="40.735378, -73.994537"><img src="images/mats4c.jpg" style="width: 32%; height: 32%"></a></li>
+
+  				<li class="layer" data-depth="1.50"><a href="#" class="button" data-latLng="40.735210, -73.992843"><img src="images/mats4b.jpg" style="width: 42%; height: 42%"></a></li>
+
+  				<li class="layer" data-depth="0.50"><a href="#" class="button" data-latLng="40.735378, -73.994537"><img src="images/mats4d.jpg" style="width: 38%; height: 38%"></a></li>  
+				
+			</ul>
+
+		</div>
+
+		 <div id="hello">
+  			<li class="layer" data-depth="2.50"><div class="test">These are the materials I used to create Phase 4. Click each photo to see where I acquired each material. Google Maps will show you the location.
+  			</div></li>
+
+			<li class="layer" data-depth="3.50"><div id="map">
+			</div></li>
+
+			<li class="layer" data-depth="4.50"><a href="v4.html"><div class="prev">BACK</div></a></li>
+
+		</div>
+
+			<div id="phases">
+				<ul id="list">
+				<li class="layer" data-depth="7.50"><img src="images/phases.png"  style="width: 50%; height: 50%"/></li>
+				<li class="layer" data-depth="5.50"><img src="images/phases.png" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="3.50"><img src="images/phases.png" style="width: 70%; height: 70%"></li>
+  				<li class="layer" data-depth="0.50"><a href="index.html"><img src="images/phases.png" style="width: 80%; height: 80%"></a></li>
+  				</ul>
+  			</div>
+
+
+
+<script src="deploy/parallax.min.js"></script>
+		
+<script>
+	var scene = document.getElementById('list');
+	var parallax = new Parallax(scene);
+</script>
+
+<script>
+	var scene = document.getElementById('phases');
+	var parallax = new Parallax(scene);
+</script>
+
+<script>
+	var scene = document.getElementById('hello');
+	var parallax = new Parallax(scene);
+</script>
+
+<script>
+	var scene = document.getElementById('map');
+	var parallax = new Parallax(scene);
+</script>
+
+<!-- Google Maps API --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="mats.js"></script>
+
+    <!--Place Click-->
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery(document).on("click", ".button", function(e) {
+        e.preventDefault();
+
+        var latLng = jQuery(this).attr("data-latLng");      
+        initialize(latLng);
+      });
+    
+    function initialize(latLng) {
+        latLng = latLng.split(",")
+        var mapOptions = {
+            center: new google.maps.LatLng(latLng[0],latLng[1]),
+            zoom: 17
+        };
+
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        var markerOptions = {
+        position: new google.maps.LatLng(latLng[0], latLng[1])
+    };
+
+        var marker = new google.maps.Marker(markerOptions);
+        marker.setMap(map);
+    }
+}); 
+</script>
+</body>
+</html>

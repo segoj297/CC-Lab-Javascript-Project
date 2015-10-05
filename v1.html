@@ -1,0 +1,70 @@
+<!--DONE-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phase 1</title>
+	<link rel="stylesheet" type="text/css" href="v1.css">
+	
+
+</head>
+
+<body>
+
+		<div id = "item">
+			<ul id="list">
+  				<li class="layer" data-depth="7.50"><img src="images/1f.jpg" style="width: 55%; height: 55%"></li>
+  				<li class="layer" data-depth="6.50"><img src="images/1c.jpg" style="width: 45%; height: 45%"></li>
+  				<li class="layer" data-depth="4.00"><img src="images/1b.jpg" style="width: 35%; height: 35%"></li>
+  				<li class="layer" data-depth="2.50"><img src="images/1a.jpg" style="width: 30%; height: 30%"></li>  				
+			</ul>
+</div>
+
+			<div id="hello">
+				<li class="layer" data-depth="1.50"><div class="test">
+				The brief for Phase 1: 2D only, no technology. Since the story described a countryside slowly filling up with people, I wanted to translate this with an animatic. First I painted a watercolor of a countryside. Over the painting I laid out a series of acetates covered with humanoid figures. Flipping each acetate fills up the image with humanoid figures. The idea is to depict people as a plague.
+				</div></li> 
+
+				<li class="layer" data-depth="4.50"><a href="matsv1.html"><div class="mats">MATERIALS
+  				</div></a></li>
+
+				<li class="layer" data-depth="7.50"><a href="v2.html"><div class="next">PHASE 2
+  				</div></a></li>
+
+			</div>
+
+			<div id="phases">
+				<ul id="list">
+				<li class="layer" data-depth="7.50"><img src="images/phases.png"  style="width: 50%; height: 50%"/></li>
+				<li class="layer" data-depth="5.50"><img src="images/phases.png" style="width: 60%; height: 60%"></li>
+  				<li class="layer" data-depth="3.50"><img src="images/phases.png" style="width: 70%; height: 70%"></li>
+  				<li class="layer" data-depth="0.50"><a href="index.html"><img src="images/phases.png" style="width: 80%; height: 80%"></a></li>
+  				</ul>
+  			</div>
+
+	<script src="deploy/parallax.min.js"></script>
+		
+	<script>
+
+  var scene = document.getElementById('list');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  	<script>
+
+  var scene = document.getElementById('phases');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+  <script>
+
+  var scene = document.getElementById('hello');
+  var parallax = new Parallax(scene);
+
+  </script>
+
+
+</body>
+</html>
